@@ -14,7 +14,7 @@ url_rex = re.compile(r'^https?://' # http:// or https://
                      r'(?:(?:[A-Z0-9](?:[A-Z0-9-]{0,61}[A-Z0-9])?\.)+(?:[A-Z]{2,6}\.?|[A-Z0-9-]{2,}\.?))' #domain...
                      r'(?:/?|[/?]\S+)$', re.IGNORECASE)
 
-mail_rex="[^A-Z0-9]([A-Z0-9][A-Z0-9._%+-]{0,63}(@|\s*[\[{\(]\s*at\s*[\]}\(]\s*)(?:[A-Z0-9](?:[A-Z0-9-]{0,62}[A-Z0-9])?(\.|\s*[\[{\(]\s*dot\s*[\]}\(]\s*)){1,8}[A-Z]{2,63})[^A-Z0-9]"
+mail_rex="[^A-Z0-9]([A-Z0-9][A-Z0-9._%+-]{0,63}(@|\s*[\ ##### removed code ####### *dot\s*[\]}\(]\s*)){1,8}[A-Z]{2,63})[^A-Z0-9]"
 
 alexa_site="http://data.alexa.com/data?cli=10&dat=s&url="
 
